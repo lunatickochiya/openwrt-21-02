@@ -1188,6 +1188,16 @@ define Device/glinet_gl-ar300m16
 endef
 TARGET_DEVICES += glinet_gl-ar300m16
 
+define Device/lunaticbox
+  SOC := qca9531
+  DEVICE_VENDOR := lunatic
+  DEVICE_MODEL := LunaticBox
+  DEVICE_PACKAGES := 
+  IMAGE_SIZE := 16000k
+  SUPPORTED_DEVICES += lunaticbox
+endef
+TARGET_DEVICES += lunaticbox
+  
 define Device/glinet_gl-ar750
   SOC := qca9531
   DEVICE_VENDOR := GL.iNet
